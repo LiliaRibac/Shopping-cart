@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
 
   <title>Shopping cart</title>
 </head>
+
 <body>
   <!-- navbar -->
   <nav class="navbar">
@@ -15,26 +17,51 @@
       <span class="nav-icon">
         <i class="fas fa-bars"></i>
       </span>
-        <img src="./images/logo.svg" alt="store logo">
-        <div class="cart-btn">
-          <span class="nav-icon">
-            <i class="fas fa-cart-plus"></i>
-          </span>
-          <div class="cart-items">0</div>
-        </div>
+      <img src="./images/logo.svg" alt="store logo">
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
     </div>
   </nav>
-   <!--End navbar -->
-   <!-- hero -->
-<header class="hero">
-  <div class="banner">
-    <h1 class="banner-title">furniture colection</h1>
-    <button class="banner-btn">shop now</button>
-  </div>
+  <!--End navbar -->
+  <!-- hero -->
+  <header class="hero">
+    <div class="banner">
+      <h1 class="banner-title">furniture colection</h1>
+      <button class="banner-btn">shop now</button>
+    </div>
+  </header>
+  <!-- end of hero -->
 
-</header>
+  <!-- product  -->
 
-   <!-- end of hero -->
+  <section class="products">
+    <div class="section-title">
+      <h2>our product</h2>
+    </div>
+    <div class="products-center">
+      <!-- single product -->
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpeg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1">
+            <i class="fas fa-shopping-cart"></i>
+            add to bag
+          </button>
+        </div>
+        <h3>queen bad</h3>
+        <h4>$16</h4>
+      </article>
+      <!-- end of single product -->
+
+    </div>
+  </section>
+  <!-- end product  -->
+
   <script src="app.js"></script>
 </body>
+
 </html>
